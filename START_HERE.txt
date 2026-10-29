@@ -1,0 +1,18 @@
+TRIPCRAFT — QUICK START (WINDOWS)
+
+1) Install Python 3.10+ and Node.js 18+.
+2) Open this TripCraft folder in VS Code.
+3) Backend terminal:
+   cd backend
+   py -m venv .venv
+   .\.venv\Scripts\Activate.ps1
+   pip install -r requirements.txt
+   python app.py
+4) Frontend terminal:
+   cd frontend
+   npm install
+   npm run dev
+5) Open http://localhost:5173
+6) Backend API: http://127.0.0.1:5000/api/health
+
+Read README.md for API tests, manual test cases, NLP explanations, and viva questions.
